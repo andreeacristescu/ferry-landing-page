@@ -1,0 +1,444 @@
+<!DOCTYPE>
+<html>
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700"
+          rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <title> Ferry - Landing Page </title>
+
+    <!-- Nav change color -->
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > $('header').innerHeight() - $('nav').innerHeight()) {
+                    console.log($(this).scrollTop() + " " + $('section.home').innerHeight() + " " + $('header').innerHeight());
+                    $('header').addClass('navbar-black');
+                } else {
+                    $('header').removeClass('navbar-black');
+                }
+            });
+        })
+    </script>
+    <!--Toggle between adding and removing the responsive class to topnav-->
+    <!--<script>-->
+    <!--$(document).ready(function() {-->
+    <!--$(".icon").click(function() {-->
+    <!--$("ul.topnav").toggleClass("responsive");-->
+    <!--});-->
+    <!--});-->
+    <!--</script>-->
+
+</head>
+
+<body>
+
+<header class="header navbar-fixed-top">
+    <div class="container">
+        <!-- Logo -->
+        <a href=""><img class="logo" src="images/logo.png"></a>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-default">
+            <ul class="topnav nav navbar-nav">
+                <li class="active"><a href="#home">FEATURES<span class="sr-only">(current)</span></a></li>
+                <li><a href="#footer">ABOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="dropdown">
+        <button><img src="images/Icons/dropdown.png"></button>
+        <div class="dropdown-content arrow_box">
+            <a href="#home">How it works</a>
+            <a href="#footer">About us</a>
+            <hr>
+            <div class="mv-footer-images">
+                <a href="">
+                    <svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>facebook55@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-628.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M9.99565625,0.00381756719 L7.50423668,0 C4.70554287,0 2.89637205,1.89071378 2.89637205,4.81649727 L2.89637205,7.03755787 L0.391212579,7.03755787 C0.175620972,7.03755787 2.00728323e-13,7.2154565 2.00728323e-13,7.43611188 L2.00728323e-13,10.654321 C2.00728323e-13,10.8739584 0.175620972,11.052875 0.391212579,11.052875 L2.89637205,11.052875 L2.89637205,19.1723314 C2.89637205,19.3919688 3.07199303,19.5708855 3.2885839,19.5708855 L6.55568358,19.5708855 C6.77227445,19.5708855 6.94789542,19.3919688 6.94789542,19.1723314 L6.94789542,11.052875 L9.8764938,11.052875 C10.0930847,11.052875 10.2679562,10.8739584 10.2679562,10.654321 L10.2697049,7.43611188 C10.2697049,7.33074703 10.2277357,7.22945424 10.1545395,7.15386641 C10.0813433,7.0792966 9.98191635,7.03755787 9.87749307,7.03755787 L6.94789542,7.03755787 L6.94789542,5.15473373 C6.94789542,4.2499703 7.15973978,3.79058972 8.31614018,3.79058972 L9.99465699,3.7895717 C10.2112479,3.7895717 10.3858696,3.61065505 10.3858696,3.39101768 L10.3858696,0.403644104 C10.3858696,0.182734216 10.2112479,0.00483558511 9.99565625,0.00381756719 Z"
+                                          id="facebook55"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>twitter1@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-679.000000, -4384.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M69.8510838,3.67093971 C69.1379219,3.9974791 68.3654566,4.22354482 67.5580174,4.32244858 C68.3837038,3.81223079 69.0132326,3.00373184 69.3158323,2.0398127 C68.5433669,2.51235287 67.6887891,2.85616116 66.7733873,3.03983956 C66.0495812,2.24232992 65.00949,1.73996163 63.8629568,1.73996163 C61.6596059,1.73996163 59.871379,3.58616507 59.871379,5.86095144 C59.871379,6.18592092 59.9078735,6.49833119 59.9732593,6.79975216 C56.6522666,6.62706307 53.7129447,4.98965645 51.7407251,2.49351406 C51.3955487,3.1010657 51.1993911,3.81223079 51.1993911,4.56735312 C51.1993911,5.99596291 51.9064706,7.25973312 52.9754532,7.99444673 C52.3215947,7.97717782 51.7103131,7.78721982 51.1704997,7.47951924 L51.1704997,7.52975607 C51.1704997,9.52823989 52.5481643,11.1954746 54.371365,11.5769605 C54.0383533,11.6680148 53.6825327,11.7166817 53.3206296,11.7166817 C53.0651686,11.7166817 52.8157901,11.6931332 52.5664115,11.6444663 C53.0773335,13.2818729 54.5492753,14.4702879 56.2964459,14.5079655 C54.9294256,15.6116058 53.2065845,16.2678244 51.3362452,16.2678244 C51.0153984,16.2678244 50.700634,16.2489855 50.3858696,16.2128778 C52.1558492,17.3840239 54.2527581,18.063791 56.5093301,18.063791 C63.850792,18.063791 67.8666994,11.7841874 67.8666994,6.33977121 L67.8545346,5.80600491 C68.6391648,5.22357168 69.3158323,4.49984738 69.8510838,3.67093971 Z"
+                                          id="twitter1"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>google@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-738.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M123.219292,0 L118.180443,0 C115.935773,0 114.381603,0.466040975 112.982877,1.56026904 C111.883586,2.45904391 111.226357,3.76421683 111.226357,5.05312351 C111.226357,7.03889699 112.825251,9.14989479 115.788783,9.14989479 C116.074309,9.14989479 116.389834,9.12175159 116.667725,9.09748131 L116.627364,9.1912059 C116.507917,9.46153548 116.395016,9.7166316 116.395016,10.1139928 C116.395016,10.8885762 116.78908,11.3667523 117.171692,11.8286622 L117.219688,11.8870141 L117.13433,11.8932108 C115.910411,11.9719601 113.632743,12.1201637 111.968944,13.0883929 C110.003528,14.1947561 109.851084,15.8033075 109.851084,16.2693484 C109.851084,18.1262829 111.677963,20 115.761239,20 C120.508017,20 122.992398,17.5210751 122.992398,15.071068 C122.993216,13.259834 121.871563,12.3651902 120.680642,11.4150347 L119.675981,10.675824 C119.365092,10.4318302 118.97839,10.1292263 118.97839,9.56739521 C118.97839,9.01563367 119.365092,8.6515795 119.705979,8.32986922 L119.742249,8.29552936 C120.826541,7.48660616 122.057005,6.5689831 122.057005,4.58501698 C122.057005,2.59020668 120.740365,1.55923626 120.106316,1.06401931 L121.778842,1.06401931 C121.799022,1.06401931 121.819476,1.05808084 121.836384,1.04801126 L123.276561,0.190805696 C123.317195,0.166535418 123.337375,0.11902764 123.323467,0.074618195 C123.309832,0.0304669447 123.267016,0 123.219292,0 Z M117.108696,18.9068047 C114.215523,18.9068047 112.271379,17.6279676 112.271379,15.7227508 C112.271379,14.4792864 113.066053,13.5756058 114.633041,13.0377868 C115.886958,12.6386181 117.506033,12.6182208 117.522123,12.6182208 C117.795923,12.6182208 117.934459,12.6182208 118.152627,12.6445566 C120.177766,14.0091143 121.151611,14.7253457 121.151611,16.0899033 C121.151611,17.8275519 119.602622,18.9068047 117.108696,18.9068047 Z M117.082243,8.41868811 C114.653221,8.41868811 113.645561,5.39600573 113.645561,3.77712655 C113.645561,2.95426085 113.842729,2.32271724 114.249612,1.8458321 C114.690583,1.32324654 115.447078,0.985528201 116.175485,0.985528201 C118.405156,0.985528201 119.637801,3.82360155 119.637801,5.78433018 C119.637801,6.09390532 119.637801,7.03476588 118.951665,7.68851422 C118.489423,8.12512103 117.738381,8.41868811 117.082243,8.41868811 Z"
+                                          id="google"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="19px" height="21px" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>linkedin-logo@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-792.000000, -4383.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M181.74449,12.6900463 L181.74449,20 L177.796678,20 L177.796678,13.1801957 C177.796678,11.4672814 177.226273,10.2980623 175.797449,10.2980623 C174.706263,10.2980623 174.057843,11.0853219 173.77213,11.847868 C173.66828,12.1202648 173.641167,12.4989292 173.641167,12.8808888 L173.641167,20 L169.692587,20 C169.692587,20 169.745535,8.44867505 169.692587,7.25282034 L173.641167,7.25282034 L173.641167,9.05909641 C173.633237,9.07310068 173.622239,9.08710495 173.615332,9.10083463 L173.641167,9.10083463 L173.641167,9.05909641 C174.165785,8.19247931 175.101965,6.95351342 177.19916,6.95351342 C179.797186,6.95351342 181.74449,8.77489214 181.74449,12.6900463 Z M165.561888,1.10769231 C164.211078,1.10769231 163.327847,2.0591588 163.327847,3.30993221 C163.327847,4.53379546 164.186011,5.5129959 165.509963,5.5129959 L165.536053,5.5129959 C166.912953,5.5129959 167.769071,4.53379546 167.769071,3.30993221 C167.743237,2.0591588 166.912953,1.10769231 165.561888,1.10769231 Z M163.562659,20 L167.509448,20 L167.509448,7.25282034 L163.562659,7.25282034 L163.562659,20 Z"
+                                          id="linkedin-logo"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="container">
+        <img class="telephone-1" src="images/Ferry_App.gif" alt="">
+        <h1 class="homeheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem</h1>
+        <img class="telephone-mv" src="images/mockup_mobile_2x.png" alt="">
+        <a href=""><img class="donwloadhome" src="images/download.png"></a>
+        <div class="microcontainer">
+            <p class="microtext">How it works</p>
+            <img class="microimage" src="images/Icons/scroll%20down@2x.png.png">
+        </div>
+    </div>
+</section>
+
+<section class="waitingtime" id="waitingtime">
+    <div class="container">
+        <div class="mv-text-container">
+            <h2> HOW IT WORKS </h2>
+            <hr>
+            <img class="location-icon" src="images/Icons/location@2x.png.png" alt="">
+            <h3>TSA Waiting Time</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+        <div class="text-container">
+            <h2>TSA Waiting Time</h2>
+            <p>TSA Waiting Time lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.
+                Aliquam
+                erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="img">
+            <div id="state" class="grid_4 alpha">
+                <div class="gps_ring"></div>
+            </div>
+            <div class="imggroup">
+                <div class="textgroup">
+                    <h5>TSA Waiting Time</h5>
+                    <p class="microtext">A few lines about the feature</p>
+                </div>
+                <img class="bigcircle" src="images/Icons/Oval_Copy_5@2x.png.png">
+                <img class="horizntalline" src="images/Icons/line.png">
+                <img class="verticalline" src="images/group_3_2x.png">
+                <img class="smallcircle" src="images/Icons/Oval_Copy_4@2x.png.png">
+            </div>
+            <!--<img class="mockup" src="images/advanced.png" alt="">-->
+            <img class="mockup3" src="images/screen3@2x.png.png" alt="img02"/>
+            <img class="mockup2" src="images/screen2@2x.png.png" alt="img03"/>
+            <img class="mockup" src="images/waiting.png" alt="img01"/>
+        </div>
+    </div>
+    <img class="longline" src="images/Icons/long-line.png" alt="">
+</section>
+
+<section class="heatmap" id="heatmap">
+    <div class="container">
+        <div class="mv-text-container">
+            <img class="location-icon" src="images/Icons/heatmap@2x.png.png" alt="">
+            <h3>Heat Map</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+        <div class="text-container">
+            <h2 class="sectionheading">Heat Map</h2>
+            <p>Heat Map lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat
+                volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="img">
+            <div id="state2" class="grid_4 alpha">
+                <div class="gps_ring"></div>
+            </div>
+            <div class="imggroup">
+                <div class="textgroup">
+                    <h5>Heat Map</h5>
+                    <p class="microtext">A few lines about the feature</p>
+                </div>
+                <img class="bigcircle" src="images/Icons/Oval_Copy_5@2x.png.png">
+                <img class="horizntalline" src="images/Icons/line.png">
+                <img class="verticalline" src="images/group_4_2x.png">
+                <img class="smallcircle" src="images/Icons/Oval_Copy_4@2x.png.png">
+            </div>
+            <img class="mockup2" src="images/heatmap2.png" alt="">
+            <img class="mockup" src="images/heatmap.png" alt="">
+        </div>
+    </div>
+    <img class="longline" src="images/Icons/long-line.png" alt="">
+</section>
+
+<section class="advancedadvice" id="advancedadvice">
+    <div class="container">
+        <div class="mv-text-container">
+            <img class="location-icon" src="images/Icons/notifications@2x.png.png" alt="">
+            <h3>Advanced Advice</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+        <div class="text-container">
+            <h2 class="sectionheading">Advanced Advice</h2>
+            <p>Advanced Advice lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.
+                Aliquam
+                erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="img">
+            <div id="state3" class="grid_4 alpha">
+                <div class="gps_ring"></div>
+            </div>
+            <div id="state4" class="grid_4 alpha">
+                <div class="gps_ring"></div>
+            </div>
+            <div class="imggroup">
+                <div class="textgroup">
+                    <h5>Flight Info</h5>
+                    <p class="microtext">A few lines about the feature</p>
+                </div>
+                <img class="bigcircle" src="images/Icons/Oval_Copy_4@2x.png.png">
+                <img class="horizntalline" src="images/Icons/line.png">
+                <img class="smallcircle" src="images/Icons/Oval_Copy_5@2x.png.png">
+            </div>
+            <div class="imggroup2">
+                <div class="textgroup">
+                    <h5>Real time Location</h5>
+                    <p class="microtext">A few lines about the feature</p>
+                </div>
+                <img class="smallcircle" src="images/Icons/Oval_Copy_4@2x.png.png">
+                <img class="horizntalline" src="images/Icons/line.png">
+                <img class="verticalline" src="images/group_4_2x.png">
+                <img class="bigcircle" src="images/Icons/Oval_Copy_5@2x.png.png">
+            </div>
+            <img class="mockup" src="images/advanced.png" alt="">
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="grey-color"></div>
+    <div class="container">
+        <div class="footertop">
+            <h3>About Ferry</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat.
+                Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+            <div class="mv-footer-images">
+                <a href="">
+                    <svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>facebook55@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-628.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M9.99565625,0.00381756719 L7.50423668,0 C4.70554287,0 2.89637205,1.89071378 2.89637205,4.81649727 L2.89637205,7.03755787 L0.391212579,7.03755787 C0.175620972,7.03755787 2.00728323e-13,7.2154565 2.00728323e-13,7.43611188 L2.00728323e-13,10.654321 C2.00728323e-13,10.8739584 0.175620972,11.052875 0.391212579,11.052875 L2.89637205,11.052875 L2.89637205,19.1723314 C2.89637205,19.3919688 3.07199303,19.5708855 3.2885839,19.5708855 L6.55568358,19.5708855 C6.77227445,19.5708855 6.94789542,19.3919688 6.94789542,19.1723314 L6.94789542,11.052875 L9.8764938,11.052875 C10.0930847,11.052875 10.2679562,10.8739584 10.2679562,10.654321 L10.2697049,7.43611188 C10.2697049,7.33074703 10.2277357,7.22945424 10.1545395,7.15386641 C10.0813433,7.0792966 9.98191635,7.03755787 9.87749307,7.03755787 L6.94789542,7.03755787 L6.94789542,5.15473373 C6.94789542,4.2499703 7.15973978,3.79058972 8.31614018,3.79058972 L9.99465699,3.7895717 C10.2112479,3.7895717 10.3858696,3.61065505 10.3858696,3.39101768 L10.3858696,0.403644104 C10.3858696,0.182734216 10.2112479,0.00483558511 9.99565625,0.00381756719 Z"
+                                          id="facebook55"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>twitter1@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-679.000000, -4384.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M69.8510838,3.67093971 C69.1379219,3.9974791 68.3654566,4.22354482 67.5580174,4.32244858 C68.3837038,3.81223079 69.0132326,3.00373184 69.3158323,2.0398127 C68.5433669,2.51235287 67.6887891,2.85616116 66.7733873,3.03983956 C66.0495812,2.24232992 65.00949,1.73996163 63.8629568,1.73996163 C61.6596059,1.73996163 59.871379,3.58616507 59.871379,5.86095144 C59.871379,6.18592092 59.9078735,6.49833119 59.9732593,6.79975216 C56.6522666,6.62706307 53.7129447,4.98965645 51.7407251,2.49351406 C51.3955487,3.1010657 51.1993911,3.81223079 51.1993911,4.56735312 C51.1993911,5.99596291 51.9064706,7.25973312 52.9754532,7.99444673 C52.3215947,7.97717782 51.7103131,7.78721982 51.1704997,7.47951924 L51.1704997,7.52975607 C51.1704997,9.52823989 52.5481643,11.1954746 54.371365,11.5769605 C54.0383533,11.6680148 53.6825327,11.7166817 53.3206296,11.7166817 C53.0651686,11.7166817 52.8157901,11.6931332 52.5664115,11.6444663 C53.0773335,13.2818729 54.5492753,14.4702879 56.2964459,14.5079655 C54.9294256,15.6116058 53.2065845,16.2678244 51.3362452,16.2678244 C51.0153984,16.2678244 50.700634,16.2489855 50.3858696,16.2128778 C52.1558492,17.3840239 54.2527581,18.063791 56.5093301,18.063791 C63.850792,18.063791 67.8666994,11.7841874 67.8666994,6.33977121 L67.8545346,5.80600491 C68.6391648,5.22357168 69.3158323,4.49984738 69.8510838,3.67093971 Z"
+                                          id="twitter1"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>google@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-738.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M123.219292,0 L118.180443,0 C115.935773,0 114.381603,0.466040975 112.982877,1.56026904 C111.883586,2.45904391 111.226357,3.76421683 111.226357,5.05312351 C111.226357,7.03889699 112.825251,9.14989479 115.788783,9.14989479 C116.074309,9.14989479 116.389834,9.12175159 116.667725,9.09748131 L116.627364,9.1912059 C116.507917,9.46153548 116.395016,9.7166316 116.395016,10.1139928 C116.395016,10.8885762 116.78908,11.3667523 117.171692,11.8286622 L117.219688,11.8870141 L117.13433,11.8932108 C115.910411,11.9719601 113.632743,12.1201637 111.968944,13.0883929 C110.003528,14.1947561 109.851084,15.8033075 109.851084,16.2693484 C109.851084,18.1262829 111.677963,20 115.761239,20 C120.508017,20 122.992398,17.5210751 122.992398,15.071068 C122.993216,13.259834 121.871563,12.3651902 120.680642,11.4150347 L119.675981,10.675824 C119.365092,10.4318302 118.97839,10.1292263 118.97839,9.56739521 C118.97839,9.01563367 119.365092,8.6515795 119.705979,8.32986922 L119.742249,8.29552936 C120.826541,7.48660616 122.057005,6.5689831 122.057005,4.58501698 C122.057005,2.59020668 120.740365,1.55923626 120.106316,1.06401931 L121.778842,1.06401931 C121.799022,1.06401931 121.819476,1.05808084 121.836384,1.04801126 L123.276561,0.190805696 C123.317195,0.166535418 123.337375,0.11902764 123.323467,0.074618195 C123.309832,0.0304669447 123.267016,0 123.219292,0 Z M117.108696,18.9068047 C114.215523,18.9068047 112.271379,17.6279676 112.271379,15.7227508 C112.271379,14.4792864 113.066053,13.5756058 114.633041,13.0377868 C115.886958,12.6386181 117.506033,12.6182208 117.522123,12.6182208 C117.795923,12.6182208 117.934459,12.6182208 118.152627,12.6445566 C120.177766,14.0091143 121.151611,14.7253457 121.151611,16.0899033 C121.151611,17.8275519 119.602622,18.9068047 117.108696,18.9068047 Z M117.082243,8.41868811 C114.653221,8.41868811 113.645561,5.39600573 113.645561,3.77712655 C113.645561,2.95426085 113.842729,2.32271724 114.249612,1.8458321 C114.690583,1.32324654 115.447078,0.985528201 116.175485,0.985528201 C118.405156,0.985528201 119.637801,3.82360155 119.637801,5.78433018 C119.637801,6.09390532 119.637801,7.03476588 118.951665,7.68851422 C118.489423,8.12512103 117.738381,8.41868811 117.082243,8.41868811 Z"
+                                          id="google"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="19px" height="21px" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>linkedin-logo@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-792.000000, -4383.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M181.74449,12.6900463 L181.74449,20 L177.796678,20 L177.796678,13.1801957 C177.796678,11.4672814 177.226273,10.2980623 175.797449,10.2980623 C174.706263,10.2980623 174.057843,11.0853219 173.77213,11.847868 C173.66828,12.1202648 173.641167,12.4989292 173.641167,12.8808888 L173.641167,20 L169.692587,20 C169.692587,20 169.745535,8.44867505 169.692587,7.25282034 L173.641167,7.25282034 L173.641167,9.05909641 C173.633237,9.07310068 173.622239,9.08710495 173.615332,9.10083463 L173.641167,9.10083463 L173.641167,9.05909641 C174.165785,8.19247931 175.101965,6.95351342 177.19916,6.95351342 C179.797186,6.95351342 181.74449,8.77489214 181.74449,12.6900463 Z M165.561888,1.10769231 C164.211078,1.10769231 163.327847,2.0591588 163.327847,3.30993221 C163.327847,4.53379546 164.186011,5.5129959 165.509963,5.5129959 L165.536053,5.5129959 C166.912953,5.5129959 167.769071,4.53379546 167.769071,3.30993221 C167.743237,2.0591588 166.912953,1.10769231 165.561888,1.10769231 Z M163.562659,20 L167.509448,20 L167.509448,7.25282034 L163.562659,7.25282034 L163.562659,20 Z"
+                                          id="linkedin-logo"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <a href=""><img class="donwloadhome" src="images/appbutton.png"></a>
+        </div>
+        <div class="footerbottom">
+            <a>&copy; All rights Reserved</a>
+            <div class="footer-images">
+                <a href="">
+                    <svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>facebook55@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-628.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M9.99565625,0.00381756719 L7.50423668,0 C4.70554287,0 2.89637205,1.89071378 2.89637205,4.81649727 L2.89637205,7.03755787 L0.391212579,7.03755787 C0.175620972,7.03755787 2.00728323e-13,7.2154565 2.00728323e-13,7.43611188 L2.00728323e-13,10.654321 C2.00728323e-13,10.8739584 0.175620972,11.052875 0.391212579,11.052875 L2.89637205,11.052875 L2.89637205,19.1723314 C2.89637205,19.3919688 3.07199303,19.5708855 3.2885839,19.5708855 L6.55568358,19.5708855 C6.77227445,19.5708855 6.94789542,19.3919688 6.94789542,19.1723314 L6.94789542,11.052875 L9.8764938,11.052875 C10.0930847,11.052875 10.2679562,10.8739584 10.2679562,10.654321 L10.2697049,7.43611188 C10.2697049,7.33074703 10.2277357,7.22945424 10.1545395,7.15386641 C10.0813433,7.0792966 9.98191635,7.03755787 9.87749307,7.03755787 L6.94789542,7.03755787 L6.94789542,5.15473373 C6.94789542,4.2499703 7.15973978,3.79058972 8.31614018,3.79058972 L9.99465699,3.7895717 C10.2112479,3.7895717 10.3858696,3.61065505 10.3858696,3.39101768 L10.3858696,0.403644104 C10.3858696,0.182734216 10.2112479,0.00483558511 9.99565625,0.00381756719 Z"
+                                          id="facebook55"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>twitter1@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-679.000000, -4384.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M69.8510838,3.67093971 C69.1379219,3.9974791 68.3654566,4.22354482 67.5580174,4.32244858 C68.3837038,3.81223079 69.0132326,3.00373184 69.3158323,2.0398127 C68.5433669,2.51235287 67.6887891,2.85616116 66.7733873,3.03983956 C66.0495812,2.24232992 65.00949,1.73996163 63.8629568,1.73996163 C61.6596059,1.73996163 59.871379,3.58616507 59.871379,5.86095144 C59.871379,6.18592092 59.9078735,6.49833119 59.9732593,6.79975216 C56.6522666,6.62706307 53.7129447,4.98965645 51.7407251,2.49351406 C51.3955487,3.1010657 51.1993911,3.81223079 51.1993911,4.56735312 C51.1993911,5.99596291 51.9064706,7.25973312 52.9754532,7.99444673 C52.3215947,7.97717782 51.7103131,7.78721982 51.1704997,7.47951924 L51.1704997,7.52975607 C51.1704997,9.52823989 52.5481643,11.1954746 54.371365,11.5769605 C54.0383533,11.6680148 53.6825327,11.7166817 53.3206296,11.7166817 C53.0651686,11.7166817 52.8157901,11.6931332 52.5664115,11.6444663 C53.0773335,13.2818729 54.5492753,14.4702879 56.2964459,14.5079655 C54.9294256,15.6116058 53.2065845,16.2678244 51.3362452,16.2678244 C51.0153984,16.2678244 50.700634,16.2489855 50.3858696,16.2128778 C52.1558492,17.3840239 54.2527581,18.063791 56.5093301,18.063791 C63.850792,18.063791 67.8666994,11.7841874 67.8666994,6.33977121 L67.8545346,5.80600491 C68.6391648,5.22357168 69.3158323,4.49984738 69.8510838,3.67093971 Z"
+                                          id="twitter1"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>google@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-738.000000, -4382.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M123.219292,0 L118.180443,0 C115.935773,0 114.381603,0.466040975 112.982877,1.56026904 C111.883586,2.45904391 111.226357,3.76421683 111.226357,5.05312351 C111.226357,7.03889699 112.825251,9.14989479 115.788783,9.14989479 C116.074309,9.14989479 116.389834,9.12175159 116.667725,9.09748131 L116.627364,9.1912059 C116.507917,9.46153548 116.395016,9.7166316 116.395016,10.1139928 C116.395016,10.8885762 116.78908,11.3667523 117.171692,11.8286622 L117.219688,11.8870141 L117.13433,11.8932108 C115.910411,11.9719601 113.632743,12.1201637 111.968944,13.0883929 C110.003528,14.1947561 109.851084,15.8033075 109.851084,16.2693484 C109.851084,18.1262829 111.677963,20 115.761239,20 C120.508017,20 122.992398,17.5210751 122.992398,15.071068 C122.993216,13.259834 121.871563,12.3651902 120.680642,11.4150347 L119.675981,10.675824 C119.365092,10.4318302 118.97839,10.1292263 118.97839,9.56739521 C118.97839,9.01563367 119.365092,8.6515795 119.705979,8.32986922 L119.742249,8.29552936 C120.826541,7.48660616 122.057005,6.5689831 122.057005,4.58501698 C122.057005,2.59020668 120.740365,1.55923626 120.106316,1.06401931 L121.778842,1.06401931 C121.799022,1.06401931 121.819476,1.05808084 121.836384,1.04801126 L123.276561,0.190805696 C123.317195,0.166535418 123.337375,0.11902764 123.323467,0.074618195 C123.309832,0.0304669447 123.267016,0 123.219292,0 Z M117.108696,18.9068047 C114.215523,18.9068047 112.271379,17.6279676 112.271379,15.7227508 C112.271379,14.4792864 113.066053,13.5756058 114.633041,13.0377868 C115.886958,12.6386181 117.506033,12.6182208 117.522123,12.6182208 C117.795923,12.6182208 117.934459,12.6182208 118.152627,12.6445566 C120.177766,14.0091143 121.151611,14.7253457 121.151611,16.0899033 C121.151611,17.8275519 119.602622,18.9068047 117.108696,18.9068047 Z M117.082243,8.41868811 C114.653221,8.41868811 113.645561,5.39600573 113.645561,3.77712655 C113.645561,2.95426085 113.842729,2.32271724 114.249612,1.8458321 C114.690583,1.32324654 115.447078,0.985528201 116.175485,0.985528201 C118.405156,0.985528201 119.637801,3.82360155 119.637801,5.78433018 C119.637801,6.09390532 119.637801,7.03476588 118.951665,7.68851422 C118.489423,8.12512103 117.738381,8.41868811 117.082243,8.41868811 Z"
+                                          id="google"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="19px" height="21px" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+                        <title>linkedin-logo@2x</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Welcome" stroke="#B4C1CC" stroke-width="0" fill="#B4C1CC" fill-rule="evenodd">
+                            <g id="Desktop-HD-Copy-4" transform="translate(-792.000000, -4383.000000)" stroke="#B4C1CC"
+                               stroke-width="0.5">
+                                <g id="social-media" transform="translate(629.000000, 4383.000000)">
+                                    <path d="M181.74449,12.6900463 L181.74449,20 L177.796678,20 L177.796678,13.1801957 C177.796678,11.4672814 177.226273,10.2980623 175.797449,10.2980623 C174.706263,10.2980623 174.057843,11.0853219 173.77213,11.847868 C173.66828,12.1202648 173.641167,12.4989292 173.641167,12.8808888 L173.641167,20 L169.692587,20 C169.692587,20 169.745535,8.44867505 169.692587,7.25282034 L173.641167,7.25282034 L173.641167,9.05909641 C173.633237,9.07310068 173.622239,9.08710495 173.615332,9.10083463 L173.641167,9.10083463 L173.641167,9.05909641 C174.165785,8.19247931 175.101965,6.95351342 177.19916,6.95351342 C179.797186,6.95351342 181.74449,8.77489214 181.74449,12.6900463 Z M165.561888,1.10769231 C164.211078,1.10769231 163.327847,2.0591588 163.327847,3.30993221 C163.327847,4.53379546 164.186011,5.5129959 165.509963,5.5129959 L165.536053,5.5129959 C166.912953,5.5129959 167.769071,4.53379546 167.769071,3.30993221 C167.743237,2.0591588 166.912953,1.10769231 165.561888,1.10769231 Z M163.562659,20 L167.509448,20 L167.509448,7.25282034 L163.562659,7.25282034 L163.562659,20 Z"
+                                          id="linkedin-logo"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <ul>
+                <li><a href="">Support</a></li>
+                <li><a href="">Terms of Condition</a></li>
+                <li><a href="">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
